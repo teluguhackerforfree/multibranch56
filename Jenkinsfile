@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('master download') {
+        stage('test download') {
             steps {
                 git 'https://github.com/sunildevops77/maven.git'
             }
